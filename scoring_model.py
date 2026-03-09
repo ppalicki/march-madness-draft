@@ -43,9 +43,17 @@ def main():
     # Projected tournament total
     df["Proj Total"] = (df["Raw Score"] * df["Exp Games"]).round(1)
 
+    # Tier
+    df["Tier"] = pd.cut(
+        df["Proj Total"],
+        bins=[0, 50, 75, 100, float("inf")],
+        labels=["Tier 4", "Tier 3", "Tier 2", "Tier 1"],
+        right=False,
+    )
+
     # Build output
     board = (
-        df[["Player", "Team", "Seed", "Exp Games", "MPG", "PPG", "RPG", "APG", "SPG", "BPG", "Raw Score", "Proj Total"]]
+        df[["Player", "Team", "Seed", "Exp Games", "MPG", "PPG", "RPG", "APG", "SPG", "BPG", "Raw Score", "Proj Total", "Tier"]]
         .rename(columns={"Raw Score": "Raw Score/G", "Exp Games": "Proj Games"})
         .sort_values("Proj Total", ascending=False)
         .reset_index(drop=True)
