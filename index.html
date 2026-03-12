@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>March Madness Draft Board</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --surface2: #222536;
+    --border: #2e3148;
+    --text: #e8eaf6;
+    --text-muted: #7b7f9e;
+    --accent: #5c6bc0;
+    --accent-hover: #7986cb;
+
+    --tier1: #f5c518;
+    --tier1-bg: rgba(245,197,24,0.12);
+    --tier2: #4caf50;
+    --tier2-bg: rgba(76,175,80,0.12);
+    --tier3: #ffc107;
+    --tier3-bg: rgba(255,193,7,0.10);
+    --tier4: #78909c;
+    --tier4-bg: rgba(120,144,156,0.10);
+
+    --drafted-bg: rgba(255,255,255,0.03);
+    --drafted-text: #3a3d50;
+    --my-pick: #e53935;
+    --my-pick-bg: rgba(229,57,53,0.12);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    min-height: 100vh;
+    padding-bottom: 40px;
+  }
+
+  /* ── Hero banner ── */
+  .hero-banner {
+    position: relative;
+    width: 100%;
+    line-height: 0;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .hero-fade {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      transparent 40%,
+      var(--bg) 100%
+    );
+    pointer-events: none;
+  }
+
+  /* ── Header ── */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 16px 12px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+
+  header h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+  }
+
+  header h1 span { color: var(--tier1); }
+
+  .total-box {
+    background: var(--my-pick-bg);
+    border: 1px solid var(--my-pick);
+    border-radius: 10px;
+    padding: 6px 14px;
+    text-align: center;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .total-box .label {
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--my-pick);
+    font-weight: 600;
+  }
+
+  .total-box .value {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #ff6659;
+    line-height: 1.1;
+  }
+
+  /* ── Controls ── */
+  .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .search-wrap {
+    position: relative;
+  }
+
+  .search-wrap svg {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+    pointer-events: none;
+  }
+
+  #search {
+    width: 100%;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    color: var(--text);
+    font-size: 0.95rem;
+    padding: 10px 36px 10px 38px;
+    outline: none;
+    -webkit-appearance: none;
+  }
+
+  #search:focus { border-color: var(--accent); }
+  #search::placeholder { color: var(--text-muted); }
+
+  #search-clear {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--border);
+    border: none;
+    border-radius: 50%;
+    color: var(--text-muted);
+    cursor: pointer;
+    display: none;
+    font-size: 0;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  #search-clear:hover { background: var(--surface); color: var(--text); }
+  #search-clear.visible { display: flex; }
+
+  .filter-row {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .filter-group {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+  }
+
+  .filter-label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    align-self: center;
+    font-weight: 600;
+    margin-right: 2px;
+  }
+
+  .chip {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 5px 12px;
+    transition: all 0.15s;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    white-space: nowrap;
+  }
+
+  .chip:active { transform: scale(0.95); }
+
+  .chip.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+
+  .chip.t1.active { background: var(--tier1); border-color: var(--tier1); color: #111; }
+  .chip.t2.active { background: var(--tier2); border-color: var(--tier2); color: #111; }
+  .chip.t3.active { background: var(--tier3); border-color: var(--tier3); color: #111; }
+  .chip.t4.active { background: var(--tier4); border-color: var(--tier4); color: #fff; }
+
+  /* ── Table container ── */
+  .table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 0 0 8px;
+  }
+
+  table {
+    border-collapse: collapse;
+    min-width: 720px;
+    width: 100%;
+  }
+
+  /* ── Table header ── */
+  thead th {
+    background: var(--surface);
+    border-bottom: 2px solid var(--border);
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    padding: 10px 10px;
+    position: sticky;
+    text-align: left;
+    text-transform: uppercase;
+    top: 0;
+    user-select: none;
+    white-space: nowrap;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  thead th:hover { color: var(--text); }
+  thead th.sorted { color: var(--accent-hover); }
+  thead th .sort-arrow { margin-left: 4px; opacity: 0.5; }
+  thead th.sorted .sort-arrow { opacity: 1; }
+
+  /* Numeric columns right-aligned */
+  thead th.num, td.num { text-align: right; }
+
+  /* ── Rows ── */
+  tbody tr {
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    transition: background 0.1s;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  tbody tr:hover { background: var(--surface2); }
+  tbody tr:active { background: var(--surface); }
+
+  tbody tr.drafted {
+    background: var(--drafted-bg) !important;
+    cursor: default;
+  }
+
+  tbody tr.my-pick {
+    background: var(--my-pick-bg) !important;
+  }
+
+  td {
+    padding: 13px 10px;
+    font-size: 0.85rem;
+    vertical-align: middle;
+  }
+
+  /* ── Player name cell ── */
+  .player-name {
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+
+  .player-school {
+    color: var(--text-muted);
+    font-size: 0.72rem;
+    margin-top: 1px;
+  }
+
+  tbody tr.drafted .player-name {
+    text-decoration: line-through;
+    color: var(--drafted-text);
+  }
+
+  tbody tr.drafted .player-school,
+  tbody tr.drafted td {
+    color: var(--drafted-text) !important;
+  }
+
+  tbody tr.drafted .tier-badge,
+  tbody tr.drafted .seed-badge {
+    opacity: 0.3;
+    filter: grayscale(1);
+  }
+
+  /* ── Tier badge ── */
+  .tier-badge {
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    padding: 3px 8px;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .tier-1 { background: var(--tier1-bg); color: var(--tier1); border: 1px solid rgba(245,197,24,0.3); }
+  .tier-2 { background: var(--tier2-bg); color: var(--tier2); border: 1px solid rgba(76,175,80,0.3); }
+  .tier-3 { background: var(--tier3-bg); color: var(--tier3); border: 1px solid rgba(255,193,7,0.3); }
+  .tier-4 { background: var(--tier4-bg); color: var(--tier4); border: 1px solid rgba(120,144,156,0.3); }
+
+  /* ── Seed badge ── */
+  .seed-badge {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    min-width: 26px;
+    padding: 2px 6px;
+    text-align: center;
+  }
+
+  /* ── My Pick button ── */
+  .pick-btn {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 6px 12px;
+    text-transform: uppercase;
+    transition: all 0.15s;
+    white-space: nowrap;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .pick-btn:hover { border-color: var(--my-pick); color: var(--my-pick); }
+  .pick-btn:active { transform: scale(0.93); }
+
+  .pick-btn.picked {
+    background: var(--my-pick-bg);
+    border-color: var(--my-pick);
+    color: #ff6659;
+  }
+
+  tbody tr.drafted .pick-btn {
+    opacity: 0.3;
+    pointer-events: none;
+  }
+
+  /* ── Drafted label ── */
+  .drafted-label {
+    color: var(--drafted-text);
+    font-size: 0.72rem;
+    font-style: italic;
+  }
+
+  /* ── Empty state ── */
+  .empty-state {
+    color: var(--text-muted);
+    padding: 48px 16px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  /* ── Rank column ── */
+  .rank-cell {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    font-weight: 700;
+    min-width: 28px;
+    text-align: center;
+  }
+
+  /* ── Responsive tweaks ── */
+  @media (max-width: 480px) {
+    header h1 { font-size: 1.05rem; }
+    td { padding: 11px 8px; }
+    thead th { padding: 9px 8px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero-banner">
+  <img src="march_mad_draft_header.png" alt="March Madness Draft" class="hero-img">
+  <div class="hero-fade"></div>
+</div>
+
+<header>
+  <div class="header-top">
+    <h1>March <span>Madness</span> Draft</h1>
+    <div class="total-box">
+      <div class="label">My Total</div>
+      <div class="value" id="my-total">0</div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <div class="search-wrap">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+      <input type="search" id="search" placeholder="Search players…" autocomplete="off" autocorrect="off" spellcheck="false">
+      <button id="search-clear" aria-label="Clear search">
+        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="1" y1="1" x2="9" y2="9"/><line x1="9" y1="1" x2="1" y2="9"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="filter-row">
+      <span class="filter-label">Tier</span>
+      <div class="filter-group" id="tier-filters">
+        <button class="chip t1 active" data-tier="1">T1</button>
+        <button class="chip t2 active" data-tier="2">T2</button>
+        <button class="chip t3 active" data-tier="3">T3</button>
+        <button class="chip t4 active" data-tier="4">T4</button>
+      </div>
+      <span class="filter-label" style="margin-left:8px">Seed</span>
+      <div class="filter-group" id="seed-filters"></div>
+    </div>
+  </div>
+</header>
+
+<div class="table-wrap">
+  <table id="board">
+    <thead>
+      <tr>
+        <th data-col="rank" class="sorted num">#<span class="sort-arrow">↑</span></th>
+        <th data-col="name">Player</th>
+        <th data-col="tier">Tier<span class="sort-arrow"></span></th>
+        <th data-col="seed" class="num">Seed<span class="sort-arrow"></span></th>
+        <th data-col="mpg" class="num">MPG<span class="sort-arrow"></span></th>
+        <th data-col="ppg" class="num">PPG<span class="sort-arrow"></span></th>
+        <th data-col="rpg" class="num">RPG<span class="sort-arrow"></span></th>
+        <th data-col="apg" class="num">APG<span class="sort-arrow"></span></th>
+        <th data-col="spg" class="num">SPG<span class="sort-arrow"></span></th>
+        <th data-col="bpg" class="num">BPG<span class="sort-arrow"></span></th>
+        <th data-col="raw" class="num">Raw<span class="sort-arrow"></span></th>
+        <th data-col="proj" class="num">Proj<span class="sort-arrow"></span></th>
+        <th>Pick</th>
+      </tr>
+    </thead>
+    <tbody id="board-body"></tbody>
+  </table>
+  <div class="empty-state" id="empty" style="display:none">No players match your filters.</div>
+</div>
+
+<script>
+// ── Player Data ────────────────────────────────────────────────────────────────
+const PLAYERS = [
+  { id:1,  name:"Cameron Boozer",    school:"Duke",       seed:1, tier:1, mpg:32.5, ppg:22.6, rpg:10.0, apg:4.0, spg:1.6, bpg:0.6, raw:38.8, proj:194 },
+  { id:2,  name:"Yaxel Lendeborg",  school:"Michigan",   seed:1, tier:1, mpg:29.5, ppg:14.3, rpg:7.3,  apg:3.2, spg:1.2, bpg:1.4, raw:27.4, proj:137 },
+  { id:3,  name:"Marcus Cole",      school:"Houston",    seed:2, tier:2, mpg:31.2, ppg:17.8, rpg:5.1,  apg:3.8, spg:1.4, bpg:0.4, raw:28.5, proj:128 },
+  { id:4,  name:"DeShawn Alvarez",  school:"Gonzaga",    seed:3, tier:2, mpg:28.7, ppg:15.2, rpg:6.4,  apg:2.9, spg:1.1, bpg:1.0, raw:26.6, proj:106 },
+  { id:5,  name:"Jordan Whitfield", school:"Kansas",     seed:2, tier:2, mpg:27.4, ppg:13.9, rpg:4.8,  apg:5.1, spg:1.8, bpg:0.2, raw:25.8, proj:103 },
+  { id:6,  name:"Tyler Odom",       school:"UConn",      seed:4, tier:2, mpg:30.1, ppg:16.4, rpg:7.0,  apg:2.4, spg:0.9, bpg:1.2, raw:27.9, proj: 97 },
+  { id:7,  name:"Chris Barlow",     school:"Kentucky",   seed:3, tier:3, mpg:26.8, ppg:12.1, rpg:5.6,  apg:2.7, spg:1.0, bpg:0.8, raw:22.2, proj: 89 },
+  { id:8,  name:"Elijah Dunmore",   school:"Purdue",     seed:5, tier:3, mpg:24.5, ppg:11.4, rpg:4.2,  apg:1.8, spg:0.7, bpg:0.5, raw:18.6, proj: 67 },
+  { id:9,  name:"Ryan Trent",       school:"Tennessee",  seed:4, tier:3, mpg:25.9, ppg:10.8, rpg:3.9,  apg:3.3, spg:1.2, bpg:0.3, raw:19.5, proj: 68 },
+  { id:10, name:"Brandon Yates",    school:"Auburn",     seed:6, tier:4, mpg:22.3, ppg: 8.7, rpg:3.1,  apg:2.0, spg:0.6, bpg:0.2, raw:14.6, proj: 44 },
+];
+
+// ── State ──────────────────────────────────────────────────────────────────────
+const state = {
+  drafted: new Set(),   // player ids tapped-off as drafted by others
+  myPicks: new Set(),   // player ids claimed as My Pick
+  sortCol: "rank",
+  sortDir: 1,           // 1 = asc, -1 = desc
+  search: "",
+  tierFilter: new Set(["1","2","3","4"]),
+  seedFilter: new Set(), // empty = all seeds
+};
+
+// ── Helpers ────────────────────────────────────────────────────────────────────
+function tierLabel(t) { return `Tier ${t}`; }
+function tierClass(t) { return `tier-${t}`; }
+
+function fmt(n) {
+  return Number.isInteger(n) ? n : n.toFixed(1);
+}
+
+// ── Seed filter chips ──────────────────────────────────────────────────────────
+function buildSeedChips() {
+  const seeds = [...new Set(PLAYERS.map(p => p.seed))].sort((a,b) => a-b);
+  const wrap = document.getElementById("seed-filters");
+  seeds.forEach(s => {
+    const btn = document.createElement("button");
+    btn.className = "chip active";
+    btn.dataset.seed = s;
+    btn.textContent = `${s}`;
+    btn.addEventListener("click", e => {
+      e.stopPropagation();
+      const key = String(s);
+      if (state.seedFilter.has(key)) {
+        state.seedFilter.delete(key);
+        btn.classList.remove("active");
+      } else {
+        state.seedFilter.add(key);
+        btn.classList.add("active");
+      }
+      render();
+    });
+    wrap.appendChild(btn);
+  });
+}
+
+// ── Sort ───────────────────────────────────────────────────────────────────────
+function sortedPlayers() {
+  const col = state.sortCol;
+  return [...PLAYERS].sort((a, b) => {
+    let av = col === "rank" ? a.id : a[col];
+    let bv = col === "rank" ? b.id : b[col];
+    if (typeof av === "string") return state.sortDir * av.localeCompare(bv);
+    return state.sortDir * (av - bv);
+  });
+}
+
+// ── Filter ─────────────────────────────────────────────────────────────────────
+function filteredPlayers() {
+  const q = state.search.trim().toLowerCase();
+  return sortedPlayers().filter(p => {
+    if (q && !p.name.toLowerCase().includes(q) && !p.school.toLowerCase().includes(q)) return false;
+    if (!state.tierFilter.has(String(p.tier))) return false;
+    if (state.seedFilter.size > 0 && !state.seedFilter.has(String(p.seed))) return false;
+    return true;
+  });
+}
+
+// ── Projected total ────────────────────────────────────────────────────────────
+function updateTotal() {
+  const total = [...state.myPicks].reduce((sum, id) => {
+    const p = PLAYERS.find(x => x.id === id);
+    return sum + (p ? p.proj : 0);
+  }, 0);
+  document.getElementById("my-total").textContent = total;
+}
+
+// ── Render table ───────────────────────────────────────────────────────────────
+function render() {
+  const tbody = document.getElementById("board-body");
+  const empty = document.getElementById("empty");
+  const players = filteredPlayers();
+
+  tbody.innerHTML = "";
+
+  if (players.length === 0) {
+    empty.style.display = "block";
+    return;
+  }
+  empty.style.display = "none";
+
+  players.forEach((p, idx) => {
+    const isDrafted = state.drafted.has(p.id);
+    const isPicked  = state.myPicks.has(p.id);
+    const tr = document.createElement("tr");
+
+    if (isDrafted) tr.classList.add("drafted");
+    if (isPicked)  tr.classList.add("my-pick");
+
+    tr.innerHTML = `
+      <td class="rank-cell num">${idx + 1}</td>
+      <td>
+        <div class="player-name">${p.name}</div>
+        <div class="player-school">${p.school}</div>
+      </td>
+      <td><span class="tier-badge ${tierClass(p.tier)}">${tierLabel(p.tier)}</span></td>
+      <td class="num"><span class="seed-badge">${p.seed}</span></td>
+      <td class="num">${fmt(p.mpg)}</td>
+      <td class="num">${fmt(p.ppg)}</td>
+      <td class="num">${fmt(p.rpg)}</td>
+      <td class="num">${fmt(p.apg)}</td>
+      <td class="num">${fmt(p.spg)}</td>
+      <td class="num">${fmt(p.bpg)}</td>
+      <td class="num">${fmt(p.raw)}</td>
+      <td class="num"><strong>${p.proj}</strong></td>
+      <td>
+        ${isDrafted
+          ? `<span class="drafted-label">Drafted</span>`
+          : `<button class="pick-btn ${isPicked ? 'picked' : ''}" data-id="${p.id}">${isPicked ? '★ Mine' : 'My Pick'}</button>`
+        }
+      </td>
+    `;
+
+    // Tap row = toggle drafted (but not if tapping the button)
+    tr.addEventListener("click", e => {
+      if (e.target.closest(".pick-btn")) return;
+      toggleDrafted(p.id);
+    });
+
+    tbody.appendChild(tr);
+  });
+
+  // Pick button events (delegated after render)
+  tbody.querySelectorAll(".pick-btn").forEach(btn => {
+    btn.addEventListener("click", e => {
+      e.stopPropagation();
+      toggleMyPick(Number(btn.dataset.id));
+    });
+  });
+
+  updateSortHeaders();
+}
+
+// ── Toggle actions ─────────────────────────────────────────────────────────────
+function toggleDrafted(id) {
+  if (state.drafted.has(id)) {
+    state.drafted.delete(id);
+  } else {
+    state.drafted.add(id);
+    // If you had it as my pick and someone else drafted it, remove from my picks
+    // (leave as is — user can decide)
+  }
+  render();
+}
+
+function toggleMyPick(id) {
+  if (state.myPicks.has(id)) {
+    state.myPicks.delete(id);
+  } else {
+    state.myPicks.add(id);
+  }
+  updateTotal();
+  render();
+}
+
+// ── Sort headers ───────────────────────────────────────────────────────────────
+function updateSortHeaders() {
+  document.querySelectorAll("thead th[data-col]").forEach(th => {
+    const col = th.dataset.col;
+    const arrow = th.querySelector(".sort-arrow");
+    th.classList.toggle("sorted", col === state.sortCol);
+    if (arrow) {
+      arrow.textContent = col === state.sortCol ? (state.sortDir === 1 ? "↑" : "↓") : "";
+    }
+  });
+}
+
+// ── Event: column sort ─────────────────────────────────────────────────────────
+document.querySelectorAll("thead th[data-col]").forEach(th => {
+  th.addEventListener("click", () => {
+    const col = th.dataset.col;
+    if (state.sortCol === col) {
+      state.sortDir *= -1;
+    } else {
+      state.sortCol = col;
+      // Default: rank/seed asc, stats desc
+      state.sortDir = ["rank","seed","tier","name"].includes(col) ? 1 : -1;
+    }
+    render();
+  });
+});
+
+// ── Event: search ──────────────────────────────────────────────────────────────
+const searchEl = document.getElementById("search");
+const clearBtn = document.getElementById("search-clear");
+
+searchEl.addEventListener("input", e => {
+  state.search = e.target.value;
+  clearBtn.classList.toggle("visible", e.target.value.length > 0);
+  render();
+});
+
+clearBtn.addEventListener("click", () => {
+  searchEl.value = "";
+  state.search = "";
+  clearBtn.classList.remove("visible");
+  searchEl.focus();
+  render();
+});
+
+// ── Event: tier filter chips ───────────────────────────────────────────────────
+document.querySelectorAll("#tier-filters .chip").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const t = btn.dataset.tier;
+    if (state.tierFilter.has(t)) {
+      state.tierFilter.delete(t);
+      btn.classList.remove("active");
+    } else {
+      state.tierFilter.add(t);
+      btn.classList.add("active");
+    }
+    render();
+  });
+});
+
+// ── Init ───────────────────────────────────────────────────────────────────────
+buildSeedChips();
+render();
+</script>
+</body>
+</html>
