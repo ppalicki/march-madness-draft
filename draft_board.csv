@@ -1,212 +1,236 @@
 Rank,Player,Team,Seed,Proj Games,MPG,PPG,RPG,APG,SPG,BPG,Raw Score/G,Proj Total,Tier
-1,Cameron Boozer,Duke,1,5.0,32.5,22.6,10.0,4.0,1.6,0.6,38.8,194.0,Tier 1
-2,Yaxel Lendeborg,Michigan,1,5.0,29.5,14.3,7.3,3.2,1.2,1.4,27.4,137.0,Tier 1
-3,Tarris Reed Jr.,Connecticut,1,5.0,26.0,13.7,7.9,2.2,1.0,2.2,27.0,135.0,Tier 1
-4,Brayden Burries,Arizona,1,5.0,29.5,15.5,4.9,2.7,1.5,0.2,24.8,124.0,Tier 1
-5,Keaton Wagler,Illinois,2,4.2,33.4,18.1,5.0,4.3,0.9,0.3,28.6,120.1,Tier 1
-6,Morez Johnson Jr.,Michigan,1,5.0,24.7,13.5,7.4,1.1,0.8,1.1,23.9,119.5,Tier 1
-7,Silas Demary Jr.,Connecticut,1,5.0,28.8,10.9,4.6,6.5,1.7,0.2,23.9,119.5,Tier 1
-8,Aday Mara,Michigan,1,5.0,22.7,11.5,6.9,2.4,0.3,2.6,23.7,118.5,Tier 1
-9,Alex Condon,Florida,2,4.2,30.4,14.8,7.7,3.6,0.7,1.4,28.2,118.4,Tier 1
-10,Jeremy Fears Jr.,Michigan State,2,4.2,31.9,15.3,2.4,9.1,1.3,0.0,28.1,118.0,Tier 1
-11,Jaden Bradley,Arizona,1,5.0,30.1,13.9,3.5,4.5,1.6,0.0,23.5,117.5,Tier 1
-12,Kingston Flemings,Houston,2,4.2,31.6,16.6,3.8,5.3,1.6,0.4,27.7,116.3,Tier 1
-13,Koa Peat,Arizona,1,5.0,26.9,13.3,5.4,2.7,0.7,0.7,22.8,114.0,Tier 1
-14,Thomas Haugh,Florida,2,4.2,33.2,17.1,6.0,2.0,1.0,1.0,27.1,113.8,Tier 1
-15,Motiejus Krivas,Arizona,1,5.0,25.0,10.8,8.2,1.1,0.7,1.8,22.6,113.0,Tier 1
-16,Alex Karaban,Connecticut,1,5.0,33.5,13.3,5.2,2.2,0.9,0.9,22.5,112.5,Tier 1
-17,Christian Anderson,Texas Tech,3,3.5,38.6,19.1,3.7,7.7,1.3,0.2,32.0,112.0,Tier 1
-18,Joshua Jefferson,Iowa State,3,3.5,31.7,16.6,7.4,5.1,1.6,0.8,31.5,110.3,Tier 1
-19,Rueben Chinyelu,Florida,2,4.2,24.6,11.3,11.8,0.7,0.7,1.1,25.6,107.5,Tier 1
-20,Tobe Awaka,Arizona,1,5.0,21.6,9.6,9.6,0.9,0.4,0.7,21.2,106.0,Tier 1
-21,Braden Smith,Purdue,3,3.5,34.1,14.7,3.7,8.7,1.8,0.2,29.1,101.8,Tier 1
-22,Isaiah Evans,Duke,1,5.0,27.3,14.6,2.9,1.3,0.8,0.7,20.3,101.5,Tier 1
-23,Patrick Ngongba,Duke,1,5.0,22.4,10.7,6.0,1.9,0.6,1.1,20.3,101.5,Tier 1
-24,Jaxon Kohler,Michigan State,2,4.2,27.6,12.5,9.1,1.2,0.6,0.7,24.1,101.2,Tier 1
-25,David Mirkovic,Illinois,2,4.2,28.9,12.9,7.7,2.5,0.4,0.3,23.8,100.0,Tier 1
-26,Solomon Ball,Connecticut,1,5.0,29.8,14.1,3.3,1.6,0.5,0.3,19.8,99.0,Tier 2
-27,Elliot Cadeau,Michigan,1,5.0,25.6,10.1,2.7,5.6,0.7,0.1,19.2,96.0,Tier 2
-28,Emanuel Sharp,Houston,2,4.2,29.5,15.9,2.9,1.9,1.3,0.1,22.1,92.8,Tier 2
-29,Braylon Mullins,Connecticut,1,5.0,26.7,12.1,3.4,1.3,1.1,0.6,18.5,92.5,Tier 2
-30,Kylan Boswell,Illinois,2,4.2,31.4,13.4,4.1,3.4,0.8,0.0,21.7,91.1,Tier 2
-31,Pryce Sandfort,Nebraska,3,3.5,33.1,18.0,4.8,1.9,1.0,0.3,26.0,91.0,Tier 2
-32,Ivan Kharchenkov,Arizona,1,5.0,27.4,9.8,4.1,2.3,1.5,0.3,18.0,90.0,Tier 2
-33,Graham Ike,Gonzaga,4,2.8,30.2,19.7,8.3,2.5,0.8,0.8,32.1,89.9,Tier 2
-34,Trey Kaufman-Renn,Purdue,3,3.5,28.0,13.3,8.9,2.7,0.4,0.2,25.5,89.2,Tier 2
-35,Xaivian Lee,Florida,2,4.2,27.1,11.7,3.7,4.1,1.2,0.1,20.8,87.4,Tier 2
-36,Labaron Philon,Alabama,4,2.8,30.2,21.5,3.3,4.8,1.2,0.2,31.0,86.8,Tier 2
-37,Carson Cooper,Michigan State,2,4.2,26.3,10.4,7.2,1.4,0.6,1.0,20.6,86.5,Tier 2
-38,Tamin Lipsey,Iowa State,3,3.5,31.6,13.2,4.2,5.0,2.1,0.0,24.5,85.8,Tier 2
-39,Andrej Stojakovic,Illinois,2,4.2,26.5,13.5,4.6,1.1,0.4,0.5,20.1,84.4,Tier 2
-40,Boogie Fland,Florida,2,4.2,29.6,11.5,2.6,3.4,1.9,0.1,19.5,81.9,Tier 2
-41,Rienk Mast,Nebraska,3,3.5,28.6,13.6,6.0,3.0,0.4,0.3,23.3,81.6,Tier 2
-42,Coen Carr,Michigan State,2,4.2,29.0,11.7,5.2,1.2,0.5,0.8,19.4,81.5,Tier 2
-43,Milos Uzan,Houston,2,4.2,32.9,11.5,2.5,4.1,1.0,0.1,19.2,80.6,Tier 2
-44,Chris Cenac Jr.,Houston,2,4.2,24.9,9.5,7.5,0.8,0.7,0.5,19.0,79.8,Tier 2
-45,Flory Bidunga,Kansas,4,2.8,32.0,13.8,9.2,1.6,0.7,2.7,28.0,78.4,Tier 2
-46,Caleb Foster,Duke,1,5.0,25.9,8.6,3.7,2.9,0.3,0.1,15.6,78.0,Tier 2
-47,Tomislav Ivisic,Illinois,2,4.2,25.4,10.3,5.7,1.6,0.3,0.6,18.5,77.7,Tier 2
-48,Milan Momcilovic,Iowa State,3,3.5,29.7,17.0,3.1,0.9,0.8,0.2,22.0,77.0,Tier 2
-49,Darryn Peterson,Kansas,4,2.8,27.9,19.5,4.2,1.6,1.3,0.5,27.1,75.9,Tier 2
-50,Sam Hoiberg,Nebraska,3,3.5,31.9,9.6,5.2,4.4,2.0,0.1,21.3,74.6,Tier 3
-51,LeJuan Watts,Texas Tech,3,3.5,27.8,11.7,5.9,2.6,0.7,0.2,21.1,73.9,Tier 3
-52,Braden Huff,Gonzaga,4,2.8,25.4,17.8,5.6,1.5,0.4,0.5,25.8,72.2,Tier 3
-53,Anthony Dell'Orso,Arizona,1,5.0,21.8,9.0,2.1,2.1,1.0,0.2,14.4,72.0,Tier 3
-54,Joseph Tugler,Houston,2,4.2,22.6,7.9,5.2,1.1,1.3,1.4,16.9,71.0,Tier 3
-55,Thijs De Ridder,Virginia,4,2.8,27.5,16.0,6.2,1.6,0.9,0.5,25.2,70.6,Tier 3
-56,Darius Acuff Jr.,Arkansas,5,2.1,34.7,22.2,3.0,6.4,0.8,0.4,32.8,68.9,Tier 3
-57,Melvin Council Jr.,Kansas,4,2.8,34.7,13.3,4.8,5.0,1.1,0.3,24.5,68.6,Tier 3
-58,Oscar Cluff,Purdue,3,3.5,23.2,9.8,7.1,1.6,0.4,0.7,19.6,68.6,Tier 3
-59,Aden Holloway,Alabama,4,2.8,28.5,16.6,2.8,4.0,0.6,0.0,24.0,67.2,Tier 3
-60,Amari Allen,Alabama,4,2.8,28.6,11.7,7.1,3.2,1.1,0.7,23.8,66.6,Tier 3
-61,Maliq Brown,Duke,1,5.0,19.5,4.6,4.6,1.8,1.8,0.5,13.3,66.5,Tier 3
-62,Tre White,Kansas,4,2.8,31.6,14.0,6.8,1.8,0.7,0.4,23.7,66.4,Tier 3
-63,Trey McKenney,Michigan,1,5.0,21.1,9.5,2.5,0.8,0.4,0.0,13.2,66.0,Tier 3
-64,Donovan Atwell,Texas Tech,3,3.5,34.6,13.3,3.2,0.7,1.2,0.1,18.5,64.8,Tier 3
-65,Tyler Tanner,Vanderbilt,5,2.1,32.9,19.0,3.5,5.3,2.5,0.4,30.7,64.5,Tier 3
-66,Roddy Gayle Jr.,Michigan,1,5.0,20.2,7.1,3.2,1.4,0.8,0.3,12.8,64.0,Tier 3
-67,Fletcher Loyer,Purdue,3,3.5,28.6,13.3,2.3,1.9,0.6,0.0,18.1,63.4,Tier 3
-68,Nimari Burnett,Michigan,1,5.0,19.2,8.3,2.2,1.3,0.6,0.1,12.5,62.5,Tier 3
-69,Braden Frager,Nebraska,3,3.5,23.7,11.9,4.1,0.9,0.7,0.1,17.7,62.0,Tier 3
-70,Eric Reibe,Connecticut,1,5.0,15.3,6.8,3.9,0.5,0.2,0.9,12.3,61.5,Tier 3
-71,Zvonimir Ivisic,Illinois,2,4.2,17.5,6.9,4.8,0.3,0.3,2.2,14.5,60.9,Tier 3
-72,Jamarques Lawrence,Nebraska,3,3.5,27.9,9.9,2.6,4.0,0.9,0.0,17.4,60.9,Tier 3
-73,Dame Sarr,Duke,1,5.0,21.5,6.1,3.7,1.0,1.0,0.3,12.1,60.5,Tier 3
-74,Ja'Kobi Gillespie,Tennessee,5,2.1,34.2,18.0,2.9,5.6,2.1,0.2,28.8,60.5,Tier 3
-75,Henri Veesaar,North Carolina,5,2.1,30.8,16.5,8.4,2.0,0.6,1.2,28.7,60.3,Tier 3
-76,Blake Buchanan,Iowa State,3,3.5,24.1,8.2,5.9,1.5,0.6,1.0,17.2,60.2,Tier 3
-77,Cayden Boozer,Duke,1,5.0,20.4,6.4,1.9,2.8,0.8,0.1,12.0,60.0,Tier 3
-78,Aiden Sherrell,Alabama,4,2.8,23.4,11.0,6.1,1.1,0.5,2.3,21.0,58.8,Tier 3
-79,Nate Ament,Tennessee,5,2.1,30.1,17.4,6.4,2.4,1.0,0.5,27.7,58.2,Tier 3
-80,Urban Klavzar,Florida,2,4.2,21.4,10.2,1.5,1.3,0.4,0.1,13.5,56.7,Tier 3
-81,Berke Buyuktuncel,Nebraska,3,3.5,24.1,6.5,5.6,2.0,0.9,1.1,16.1,56.4,Tier 3
-82,Jaylen Petty,Texas Tech,3,3.5,29.6,9.3,3.9,2.1,0.6,0.0,15.9,55.6,Tier 3
-83,AJ Dybantsa,BYU,7,1.5,34.0,24.8,6.7,3.8,1.1,0.4,36.8,55.2,Tier 3
-84,Latrell Wrightsell Jr.,Alabama,4,2.8,27.1,13.5,2.9,2.1,1.1,0.0,19.6,54.9,Tier 3
-85,Duke Miles,Vanderbilt,5,2.1,28.9,16.0,3.0,4.3,2.5,0.3,26.1,54.8,Tier 3
-86,Killyan Toure,Iowa State,3,3.5,25.2,8.4,3.2,2.3,1.5,0.2,15.6,54.6,Tier 3
-87,Chance Mallory,Virginia,4,2.8,24.5,10.0,3.9,3.5,1.7,0.1,19.2,53.8,Tier 3
-88,Tyon Grant-Foster,Gonzaga,4,2.8,21.5,11.1,5.1,1.1,0.8,1.1,19.2,53.8,Tier 3
-89,Micah Handlogten,Florida,2,4.2,15.1,4.3,6.0,0.7,0.5,0.9,12.4,52.1,Tier 3
-90,Nikolas Khamenia,Duke,1,5.0,18.5,5.5,3.3,1.1,0.5,0.0,10.4,52.0,Tier 3
-91,Trevon Brazile,Arkansas,5,2.1,30.7,12.9,7.1,1.6,1.5,1.6,24.7,51.9,Tier 3
-92,Ben Humrichous,Illinois,2,4.2,22.5,6.3,4.1,0.8,0.4,0.7,12.3,51.7,Tier 3
-93,Malik Thomas,Virginia,4,2.8,22.8,11.9,4.1,1.7,0.4,0.1,18.2,51.0,Tier 3
-94,Paulius Murauskas,Saint Mary's,6,1.7,32.3,18.6,7.7,2.2,0.6,0.5,29.6,50.3,Tier 3
-95,Nick Boyd,Wisconsin,6,1.7,31.2,20.0,3.7,3.9,0.9,0.0,28.5,48.4,Tier 4
-96,Bryson Tiller,Kansas,4,2.8,26.6,8.5,6.0,1.1,0.3,1.4,17.3,48.4,Tier 4
-97,Meleek Thomas,Arkansas,5,2.1,28.9,14.9,3.8,2.4,1.5,0.2,22.8,47.9,Tier 4
-98,Charles Bediako,Alabama,4,2.8,21.6,10.0,4.6,0.2,0.8,1.4,17.0,47.6,Tier 4
-99,Jordan Scott,Michigan State,2,4.2,20.0,6.0,3.1,1.1,0.7,0.4,11.3,47.5,Tier 4
-100,Johann GrÃ¼nloh,Virginia,4,2.8,22.0,7.8,5.5,0.7,0.5,2.4,16.9,47.3,Tier 4
-101,Mikel Brown Jr.,Louisville,6,1.7,29.2,18.2,3.3,4.7,1.2,0.1,27.5,46.8,Tier 4
-102,Jaylin Stewart,Connecticut,1,5.0,17.7,4.5,2.8,1.2,0.5,0.3,9.3,46.5,Tier 4
-103,Ryan Conwell,Louisville,6,1.7,30.0,18.5,4.8,2.6,1.2,0.2,27.3,46.4,Tier 4
-104,Kur Teng,Michigan State,2,4.2,17.1,7.5,2.1,1.0,0.3,0.1,11.0,46.2,Tier 4
-105,Otega Oweh,Kentucky,6,1.7,31.6,17.9,4.5,2.7,1.8,0.2,27.1,46.1,Tier 4
-106,C.J. Cox,Purdue,3,3.5,24.0,8.7,2.4,1.3,0.6,0.1,13.1,45.8,Tier 4
-107,Seth Trimble,North Carolina,5,2.1,31.7,14.2,3.7,2.4,1.2,0.2,21.7,45.6,Tier 4
-108,Cameron Ward,Michigan State,2,4.2,15.5,5.2,4.4,0.3,0.4,0.5,10.8,45.4,Tier 4
-109,John Blackwell,Wisconsin,6,1.7,33.0,18.1,4.8,2.4,1.2,0.1,26.6,45.2,Tier 4
-110,Mario Saint-Supery,Gonzaga,4,2.8,22.3,8.4,2.7,3.6,1.3,0.1,16.1,45.1,Tier 4
-111,Sam Lewis,Virginia,4,2.8,25.1,10.2,3.5,1.4,0.7,0.2,16.0,44.8,Tier 4
-112,Zuby Ejiofor,St. John's,7,1.5,29.6,16.0,7.1,3.5,1.2,2.0,29.8,44.7,Tier 4
-113,Malik Reneau,Miami (FL),7,1.5,28.5,19.1,6.7,2.2,0.9,0.7,29.6,44.4,Tier 4
-114,Malachi Smith,Connecticut,1,5.0,15.3,3.6,1.6,2.9,0.6,0.1,8.8,44.0,Tier 4
-115,Jalen Warley,Gonzaga,4,2.8,21.6,7.1,4.6,1.9,1.6,0.3,15.5,43.4,Tier 4
-116,Nolan Winter,Wisconsin,6,1.7,31.1,13.3,8.6,1.5,0.5,1.2,25.1,42.7,Tier 4
-117,Dallin Hall,Virginia,4,2.8,28.3,6.1,3.7,4.2,0.9,0.1,15.0,42.0,Tier 4
-118,Robert Wright III,BYU,7,1.5,34.8,18.4,3.5,4.7,1.3,0.0,27.9,41.8,Tier 4
-119,Tre Donaldson,Miami (FL),7,1.5,34.1,16.6,3.8,5.9,1.3,0.2,27.8,41.7,Tier 4
-120,Jayden Ross,Connecticut,1,5.0,16.0,4.4,2.1,0.7,0.6,0.5,8.3,41.5,Tier 4
-121,Ugonna Onyenso,Virginia,4,2.8,17.7,6.0,4.9,0.6,0.6,2.6,14.7,41.2,Tier 4
-122,Tyler Nickel,Vanderbilt,5,2.1,30.6,13.9,3.1,1.2,0.7,0.6,19.5,41.0,Tier 4
-123,Devin McGlockton,Vanderbilt,5,2.1,24.8,10.0,7.0,1.4,0.4,0.7,19.5,40.9,Tier 4
-124,Frankie Collins,Vanderbilt,5,2.1,20.9,7.8,4.2,4.7,2.4,0.1,19.2,40.3,Tier 4
-125,Nate Heise,Iowa State,3,3.5,24.9,5.1,4.0,1.5,0.8,0.1,11.5,40.2,Tier 4
-126,Dwayne Aristode,Arizona,1,5.0,15.1,4.7,1.9,0.8,0.5,0.1,8.0,40.0,Tier 4
-127,Billy Richmond III,Arkansas,5,2.1,25.6,11.1,3.9,2.0,1.0,0.8,18.8,39.5,Tier 4
-128,Joshua Dent,Saint Mary's,6,1.7,36.1,13.3,2.5,5.6,1.6,0.1,23.1,39.3,Tier 4
-129,Luke Bamgboye,Texas Tech,3,3.5,16.1,5.1,3.2,0.6,0.4,1.8,11.1,38.9,Tier 4
-130,Duke Brennan,Villanova,7,1.5,30.7,12.0,10.4,2.0,0.8,0.5,25.7,38.6,Tier 4
-131,Jake Davis,Illinois,2,4.2,20.0,5.8,2.1,0.7,0.3,0.2,9.1,38.2,Tier 4
-132,Jacari White,Virginia,4,2.8,17.6,9.0,2.3,1.4,0.6,0.1,13.4,37.5,Tier 4
-133,Davis Fogle,Gonzaga,4,2.8,15.7,8.2,2.7,1.2,0.7,0.5,13.3,37.2,Tier 4
-134,Jalen Washington,Vanderbilt,5,2.1,20.7,9.0,5.6,0.9,0.7,1.3,17.5,36.8,Tier 4
-135,Houston Mallette,Alabama,4,2.8,23.4,7.0,4.4,1.0,0.7,0.0,13.1,36.7,Tier 4
-136,Braeden Smith,Gonzaga,4,2.8,18.0,5.5,2.4,3.9,1.1,0.0,12.9,36.1,Tier 4
-137,Divine Ugochukwu,Michigan State,2,4.2,16.1,5.1,1.5,1.5,0.4,0.1,8.6,36.1,Tier 4
-138,Malique Ewin,Arkansas,5,2.1,19.3,9.5,5.1,0.8,0.6,1.0,17.0,35.7,Tier 4
-139,Cale Jacobsen,Nebraska,3,3.5,20.0,4.5,2.7,1.4,1.1,0.3,10.0,35.0,Tier 4
-140,Taylor Bol Bowen,Alabama,4,2.8,18.8,6.3,4.5,0.4,0.4,0.9,12.5,35.0,Tier 4
-141,Andrew McKeever,Saint Mary's,6,1.7,22.8,8.3,9.1,1.7,0.5,0.8,20.4,34.7,Tier 4
-142,Emmanuel Innocenti,Gonzaga,4,2.8,23.0,6.0,3.6,1.6,1.0,0.2,12.4,34.7,Tier 4
-143,Acaden Lewis,Villanova,7,1.5,30.3,12.5,3.2,5.1,2.0,0.1,22.9,34.3,Tier 4
-144,AK Okereke,Vanderbilt,5,2.1,26.0,9.7,3.5,1.9,0.6,0.6,16.3,34.2,Tier 4
-145,Bryce Hopkins,St. John's,7,1.5,28.0,13.3,6.0,2.0,1.1,0.3,22.7,34.1,Tier 4
-146,Isiah Harwell,Houston,2,4.2,15.8,4.2,2.3,0.6,0.7,0.3,8.1,34.0,Tier 4
-147,J.P. Estrella,Tennessee,5,2.1,17.4,9.8,5.1,0.7,0.2,0.3,16.1,33.8,Tier 4
-148,J'Vonne Hadley,Louisville,6,1.7,27.1,11.6,5.3,1.7,0.9,0.3,19.8,33.7,Tier 4
-149,Shelton Henderson,Miami (FL),7,1.5,30.7,14.0,4.8,2.1,1.2,0.3,22.4,33.6,Tier 4
-150,Mikey Lewis,Saint Mary's,6,1.7,26.7,13.9,2.7,2.2,0.7,0.2,19.7,33.5,Tier 4
-151,Bishop Boswell,Tennessee,5,2.1,26.2,6.7,4.8,2.9,1.4,0.1,15.9,33.4,Tier 4
-152,Felix Okpara,Tennessee,5,2.1,26.3,7.7,6.0,0.5,0.4,1.3,15.9,33.4,Tier 4
-153,Denzel Aberdeen,Kentucky,6,1.7,29.5,12.8,2.5,3.5,0.6,0.1,19.5,33.2,Tier 4
-154,Tyler Perkins,Villanova,7,1.5,29.4,13.5,5.5,1.6,1.2,0.3,22.1,33.2,Tier 4
-155,Jaylen Carey,Tennessee,5,2.1,18.8,7.5,6.3,1.3,0.3,0.1,15.5,32.6,Tier 4
-156,Sananda Fru,Louisville,6,1.7,22.4,9.6,6.3,1.3,0.5,1.4,19.1,32.5,Tier 4
-157,Luka Bogavac,North Carolina,5,2.1,24.0,10.1,2.6,2.3,0.4,0.0,15.4,32.3,Tier 4
-158,Malachi Moreno,Kentucky,6,1.7,22.8,8.3,6.6,1.8,0.6,1.6,18.9,32.1,Tier 4
-159,Karter Knox,Arkansas,5,2.1,22.2,8.1,4.5,1.2,0.7,0.5,15.0,31.5,Tier 4
-160,Adam Miller,Gonzaga,4,2.8,19.7,7.8,1.6,1.0,0.7,0.0,11.1,31.1,Tier 4
-161,London Jemison,Alabama,4,2.8,15.4,6.2,3.4,0.4,0.6,0.3,10.9,30.5,Tier 4
-162,Dillon Mitchell,St. John's,7,1.5,27.5,8.1,6.9,3.1,1.2,0.7,20.0,30.0,Tier 4
-163,Gicarri Harris,Purdue,3,3.5,16.4,5.0,1.7,0.9,0.9,0.0,8.5,29.8,Tier 4
-164,Jarin Stevenson,North Carolina,5,2.1,25.0,7.8,4.2,1.0,0.6,0.6,14.2,29.8,Tier 4
-165,Ernest Udeh Jr.,Miami (FL),7,1.5,27.3,7.1,9.5,0.5,1.0,1.5,19.6,29.4,Tier 4
-166,Tru Washington,Miami (FL),7,1.5,27.7,11.8,4.1,1.6,2.0,0.0,19.5,29.2,Tier 4
-167,Mouhamed Dioubate,Kentucky,6,1.7,21.5,8.5,5.5,0.9,1.0,1.0,16.9,28.7,Tier 4
-168,Collin Chandler,Kentucky,6,1.7,25.9,10.2,2.9,2.2,1.2,0.3,16.8,28.6,Tier 4
-169,Tyeree Bryan,Texas Tech,3,3.5,17.7,3.9,2.8,0.6,0.4,0.2,7.9,27.6,Tier 4
-170,Dillan Shaw,Saint Mary's,6,1.7,27.2,7.7,5.3,1.6,0.9,0.6,16.1,27.4,Tier 4
-171,D.J. Wagner,Arkansas,5,2.1,23.6,7.7,1.4,2.4,1.0,0.3,12.8,26.9,Tier 4
-172,Austin Rapp,Wisconsin,6,1.7,21.7,9.3,3.8,1.5,0.5,0.5,15.6,26.5,Tier 4
-173,Isaac McKneely,Louisville,6,1.7,28.1,10.7,2.8,1.1,0.5,0.1,15.2,25.8,Tier 4
-174,Devin Tillis,Virginia,4,2.8,17.0,4.8,2.8,1.4,0.2,0.0,9.2,25.8,Tier 4
-175,Bryce Lindsay,Villanova,7,1.5,28.6,12.3,2.0,2.1,0.7,0.0,17.1,25.6,Tier 4
-176,Elmarko Jackson,Kansas,4,2.8,17.9,4.7,1.7,1.6,0.8,0.2,9.0,25.2,Tier 4
-177,Keba Keita,BYU,7,1.5,21.7,6.2,7.0,0.4,1.1,1.8,16.5,24.8,Tier 4
-178,Adrian Wooley,Louisville,6,1.7,21.0,8.3,3.9,1.5,0.8,0.1,14.6,24.8,Tier 4
-179,Oziyah Sellers,St. John's,7,1.5,29.6,10.7,3.0,1.8,0.6,0.3,16.4,24.6,Tier 4
-180,Devin Askew,Villanova,7,1.5,22.6,9.9,2.4,1.9,1.1,0.1,15.4,23.1,Tier 4
-181,Derek Dixon,North Carolina,5,2.1,21.0,5.7,2.3,2.6,0.3,0.0,10.9,22.9,Tier 4
-182,DeWayne Brown II,Tennessee,5,2.1,16.0,5.3,3.9,1.0,0.3,0.4,10.9,22.9,Tier 4
-183,Jaland Lowe,Kentucky,6,1.7,18.4,8.0,2.1,2.4,0.7,0.2,13.4,22.8,Tier 4
-184,Steele Venters,Gonzaga,4,2.8,15.1,5.0,1.3,1.0,0.6,0.1,8.0,22.4,Tier 4
-185,Ian Jackson,St. John's,7,1.5,18.8,9.8,2.4,1.3,0.9,0.2,14.6,21.9,Tier 4
-186,Khani Rooths,Louisville,6,1.7,17.5,5.7,4.8,1.1,0.7,0.5,12.8,21.8,Tier 4
-187,Braeden Carrington,Wisconsin,6,1.7,17.6,8.6,2.5,1.0,0.4,0.3,12.8,21.8,Tier 4
-188,Matthew Hodge,Villanova,7,1.5,27.6,9.2,3.6,0.7,0.4,0.6,14.5,21.7,Tier 4
-189,Harry Wessels,Saint Mary's,6,1.7,17.1,5.1,5.3,0.6,0.4,1.1,12.5,21.2,Tier 4
-190,Nick Pringle,Arkansas,5,2.1,19.0,4.8,4.0,0.6,0.3,0.4,10.1,21.2,Tier 4
-191,Andrew Rohde,Wisconsin,6,1.7,25.9,6.0,2.0,2.9,1.3,0.1,12.3,20.9,Tier 4
-192,Jamari McDowell,Kansas,4,2.8,18.4,3.7,1.7,1.2,0.4,0.2,7.2,20.2,Tier 4
-193,Dylan Darling,St. John's,7,1.5,20.4,7.3,2.4,2.4,1.3,0.1,13.5,20.2,Tier 4
-194,Jayden Quaintance,Kentucky,6,1.7,16.8,5.0,5.0,0.5,0.5,0.8,11.8,20.1,Tier 4
-195,Cade Phillips,Tennessee,5,2.1,16.9,3.8,4.0,0.4,0.2,1.1,9.5,19.9,Tier 4
-196,Kam Williams,Kentucky,6,1.7,19.9,6.9,2.5,1.0,0.6,0.4,11.4,19.4,Tier 4
-197,Kennard Davis,BYU,7,1.5,28.2,7.7,2.7,1.2,1.1,0.2,12.9,19.3,Tier 4
-198,Andrija Jelavic,Kentucky,6,1.7,15.7,5.8,3.9,0.6,0.5,0.3,11.1,18.9,Tier 4
-199,Dante Allen,Miami (FL),7,1.5,23.4,6.3,2.8,2.2,1.1,0.1,12.5,18.8,Tier 4
-200,Jonathan Powell,North Carolina,5,2.1,16.5,5.1,2.4,0.8,0.5,0.1,8.9,18.7,Tier 4
-201,Kyan Evans,North Carolina,5,2.1,18.9,4.4,1.2,2.7,0.5,0.0,8.8,18.5,Tier 4
-202,Joson Sanon,St. John's,7,1.5,21.3,8.3,2.6,0.7,0.5,0.2,12.3,18.4,Tier 4
-203,Brandon Garrison,Kentucky,6,1.7,15.6,4.3,4.0,1.2,0.5,0.5,10.5,17.8,Tier 4
-204,Aleksas Bieliauskas,Wisconsin,6,1.7,17.8,4.3,4.0,0.7,0.1,0.6,9.7,16.5,Tier 4
-205,Marcus Allen,Miami (FL),7,1.5,18.9,5.3,3.1,1.6,0.3,0.0,10.3,15.4,Tier 4
-206,Dawson Baker,BYU,7,1.5,19.8,7.5,1.7,0.5,0.5,0.0,10.2,15.3,Tier 4
-207,Khadim Mboup,BYU,7,1.5,15.0,2.2,4.8,0.4,0.6,0.6,8.6,12.9,Tier 4
-208,Timotej Malovec,Miami (FL),7,1.5,16.3,4.7,1.5,1.0,0.3,0.2,7.7,11.6,Tier 4
-209,Tafara Gapare,Villanova,7,1.5,16.3,2.9,2.9,0.4,0.6,0.8,7.6,11.4,Tier 4
-210,Malachi Palmer,Villanova,7,1.5,17.5,4.3,1.7,0.6,0.6,0.1,7.3,11.0,Tier 4
-211,Jack Janicki,Wisconsin,6,1.7,16.5,2.2,2.0,1.1,0.7,0.2,6.2,10.5,Tier 4
+1,Cameron Boozer,Duke,1,5,33,22.5,10.2,4.2,1.5,0.5,38.9,194.5,Tier 1
+2,Alex Condon,Florida,1,5,30.6,15,7.7,3.5,0.7,1.4,28.3,141.5,Tier 1
+3,Thomas Haugh,Florida,1,5,33.5,17.1,6.2,2,1.1,1,27.4,137,Tier 1
+4,Yaxel Lendeborg,Michigan,1,5,30.2,14.6,7,3.2,1.2,1.3,27.3,136.5,Tier 1
+5,Joshua Jefferson,Iowa State,2,4.2,31.8,16.9,7.6,4.9,1.7,0.9,32,134.4,Tier 1
+6,Rueben Chinyelu,Florida,1,5,24.8,11.2,11.5,0.7,0.8,1.1,25.3,126.5,Tier 1
+7,Brayden Burries,Arizona,1,5,29.5,15.9,4.7,2.5,1.6,0.2,24.9,124.5,Tier 1
+8,Braden Smith,Purdue,2,4.2,34.3,14,3.6,9.1,1.8,0.2,28.7,120.5,Tier 1
+9,Aday Mara,Michigan,1,5,23.1,11.6,6.9,2.3,0.3,2.6,23.7,118.5,Tier 1
+10,Morez Johnson Jr.,Michigan,1,5,25.1,13.1,7.2,1.1,0.7,1.1,23.2,116,Tier 1
+11,Kingston Flemings,Houston,2,4.2,31.7,16.4,3.9,5.3,1.6,0.3,27.5,115.5,Tier 1
+12,Jaden Bradley,Arizona,1,5,30.4,13.3,3.6,4.5,1.5,0.1,23,115,Tier 1
+13,Koa Peat,Arizona,1,5,27.3,13.6,5.3,2.7,0.7,0.7,23,115,Tier 1
+14,Tarris Reed Jr.,Connecticut,2,4.2,26.1,13.7,8.1,2.3,0.9,2.1,27.1,113.8,Tier 1
+15,Graham Ike,Gonzaga,3,3.5,30.8,19.7,8.2,2.4,0.8,0.9,32,112,Tier 1
+16,Motiejus Krivas,Arizona,1,5,25,10.5,8.1,1,0.7,1.8,22.1,110.5,Tier 1
+17,Trey Kaufman-Renn,Purdue,2,4.2,27.9,13.6,8.5,2.6,0.4,0.2,25.3,106.3,Tier 1
+18,Isaiah Evans,Duke,1,5,27.9,14.9,3.1,1.4,0.8,0.7,20.9,104.5,Tier 1
+19,Tobe Awaka,Arizona,1,5,21.4,9.4,9.5,0.8,0.4,0.7,20.8,104,Tier 1
+20,Xaivian Lee,Florida,1,5,27.5,11.5,3.8,4.2,1.2,0.1,20.8,104,Tier 1
+21,Tamin Lipsey,Iowa State,2,4.2,31.5,13.3,4,5,2.2,0,24.5,102.9,Tier 1
+22,Patrick Ngongba,Duke,1,5,22.4,10.7,6,1.9,0.6,1.1,20.3,101.5,Tier 1
+23,Jeremy Fears Jr.,Michigan State,3,3.5,32.2,15.7,2.4,9.2,1.3,0,28.6,100.1,Tier 1
+24,Keaton Wagler,Illinois,3,3.5,33.7,17.9,4.8,4.4,0.9,0.3,28.3,99,Tier 2
+25,Silas Demary Jr.,Connecticut,2,4.2,29.1,10.9,4.5,6.2,1.6,0.2,23.4,98.3,Tier 2
+26,Boogie Fland,Florida,1,5,30,11.6,2.5,3.4,1.8,0.1,19.4,97,Tier 2
+27,Elliot Cadeau,Michigan,1,5,26.4,10.2,2.6,5.6,0.7,0.1,19.2,96,Tier 2
+28,Darius Acuff Jr.,Arkansas,4,2.8,35.1,22.9,3.2,6.5,0.8,0.3,33.7,94.4,Tier 2
+29,Milan Momcilovic,Iowa State,2,4.2,30.1,17.1,3.1,0.9,0.8,0.2,22.1,92.8,Tier 2
+30,Alex Karaban,Connecticut,2,4.2,33.7,12.6,5.2,2.3,0.8,0.8,21.7,91.1,Tier 2
+31,Ivan Kharchenkov,Arizona,1,5,27.7,10.1,4.1,2.3,1.4,0.3,18.2,91,Tier 2
+32,Emanuel Sharp,Houston,2,4.2,29.5,15.3,2.9,1.8,1.2,0.1,21.3,89.5,Tier 2
+33,Oscar Cluff,Purdue,2,4.2,24.1,10.6,7.4,1.7,0.4,0.8,20.9,87.8,Tier 2
+34,Labaron Philon,Alabama,4,2.8,30.3,21.7,3.2,4.7,1.1,0.2,30.9,86.5,Tier 2
+35,Thijs De Ridder,Virginia,3,3.5,27.6,15.5,6.2,1.6,0.9,0.5,24.7,86.4,Tier 2
+36,David Mirkovic,Illinois,3,3.5,29.3,13.4,7.8,2.6,0.4,0.3,24.5,85.8,Tier 2
+37,Jaxon Kohler,Michigan State,3,3.5,27.7,12.7,9,1.3,0.6,0.7,24.3,85,Tier 2
+38,Chris Cenac Jr.,Houston,2,4.2,24.8,9.5,7.5,0.8,0.8,0.5,19.1,80.2,Tier 2
+39,Fletcher Loyer,Purdue,2,4.2,29,13.8,2.3,2.1,0.7,0.1,19,79.8,Tier 2
+40,Solomon Ball,Connecticut,2,4.2,29.1,13.5,3.3,1.6,0.4,0.2,19,79.8,Tier 2
+41,Milos Uzan,Houston,2,4.2,32.9,11.1,2.6,4,1,0.1,18.8,79,Tier 2
+42,Darryn Peterson,Kansas,4,2.8,28.4,19.8,4.4,1.7,1.5,0.5,27.9,78.1,Tier 2
+43,Braylon Mullins,Connecticut,2,4.2,27.4,12,3.5,1.4,1,0.7,18.6,78.1,Tier 2
+44,Flory Bidunga,Kansas,4,2.8,31.6,13.5,9.2,1.5,0.7,2.6,27.5,77,Tier 2
+45,Joseph Tugler,Houston,2,4.2,23.4,8.4,5.4,1.2,1.4,1.5,17.9,75.2,Tier 2
+46,Kylan Boswell,Illinois,3,3.5,30.4,13.2,4,3.3,0.8,0,21.3,74.6,Tier 3
+47,Carson Cooper,Michigan State,3,3.5,26.4,10.8,7.1,1.4,0.6,0.9,20.8,72.8,Tier 3
+48,Pryce Sandfort,Nebraska,4,2.8,33.3,17.8,4.8,2,1,0.3,25.9,72.5,Tier 3
+49,Blake Buchanan,Iowa State,2,4.2,24.1,8.4,5.7,1.5,0.7,0.9,17.2,72.2,Tier 3
+50,Anthony Dell'Orso,Arizona,1,5,21.8,9,2.1,2,0.9,0.2,14.2,71,Tier 3
+51,Trevon Brazile,Arkansas,4,2.8,31.5,13.2,7.4,1.5,1.5,1.6,25.2,70.6,Tier 3
+52,Maliq Brown,Duke,1,5,20,4.8,4.9,1.8,1.9,0.6,14,70,Tier 3
+53,Andrej Stojakovic,Illinois,3,3.5,26.4,13.4,4.6,1,0.4,0.5,19.9,69.6,Tier 3
+54,Coen Carr,Michigan State,3,3.5,29,11.6,5.4,1.3,0.4,0.8,19.5,68.2,Tier 3
+55,Melvin Council Jr.,Kansas,4,2.8,34.8,12.9,4.8,5.1,1.1,0.3,24.2,67.8,Tier 3
+56,Tyon Grant-Foster,Gonzaga,3,3.5,21.5,11.2,5,1.2,0.8,1.1,19.3,67.6,Tier 3
+57,Trey McKenney,Michigan,1,5,21.5,9.6,2.6,0.9,0.4,0,13.5,67.5,Tier 3
+58,Aden Holloway,Alabama,4,2.8,28.4,16.8,2.8,3.8,0.6,0,24,67.2,Tier 3
+59,Christian Anderson,Texas Tech,5,2.1,38.4,18.9,3.6,7.6,1.3,0.3,31.7,66.6,Tier 3
+60,Amari Allen,Alabama,4,2.8,28.4,11.7,7.1,3.1,1.1,0.7,23.7,66.4,Tier 3
+61,Tre White,Kansas,4,2.8,31.4,13.8,6.7,1.8,0.6,0.4,23.3,65.2,Tier 3
+62,Meleek Thomas,Arkansas,4,2.8,30,15.4,3.8,2.5,1.4,0.2,23.3,65.2,Tier 3
+63,Chance Mallory,Virginia,3,3.5,24.2,9.5,3.7,3.6,1.6,0.1,18.5,64.8,Tier 3
+64,Malik Thomas,Virginia,3,3.5,22.9,12.4,3.9,1.6,0.5,0.1,18.5,64.8,Tier 3
+65,Cayden Boozer,Duke,1,5,21.8,7.1,2.1,2.8,0.8,0.1,12.9,64.5,Tier 3
+66,Urban Klavzar,Florida,1,5,20.9,9.7,1.5,1.2,0.4,0.1,12.9,64.5,Tier 3
+67,Tyler Tanner,Vanderbilt,5,2.1,33.2,19.1,3.6,5.1,2.4,0.4,30.6,64.3,Tier 3
+68,Rienk Mast,Nebraska,4,2.8,28.9,13.5,5.8,2.9,0.4,0.3,22.9,64.1,Tier 3
+69,Roddy Gayle Jr.,Michigan,1,5,20.5,7,3.2,1.4,0.8,0.4,12.8,64,Tier 3
+70,Zuby Ejiofor,St. John's,5,2.1,29.6,16.3,7.1,3.5,1.2,2.1,30.2,63.4,Tier 3
+71,Killyan Toure,Iowa State,2,4.2,24.7,8.1,3.2,2.2,1.4,0.2,15.1,63.4,Tier 3
+72,AJ Dybantsa,BYU,6,1.7,34.6,25.3,6.7,3.8,1.1,0.4,37.3,63.4,Tier 3
+73,Tomislav Ivisic,Illinois,3,3.5,25.2,10,5.5,1.6,0.3,0.6,18,63,Tier 3
+74,Nick Boyd,Wisconsin,5,2.1,31.8,20.6,3.8,4.2,1.1,0,29.7,62.4,Tier 3
+75,Nimari Burnett,Michigan,1,5,19.5,8.3,2.4,1.1,0.5,0.1,12.4,62,Tier 3
+76,Dame Sarr,Duke,1,5,22.9,6.3,3.7,1,1,0.3,12.3,61.5,Tier 3
+77,Sam Hoiberg,Nebraska,4,2.8,32.1,9.6,5.3,4.3,2.1,0.1,21.4,59.9,Tier 3
+78,Aiden Sherrell,Alabama,4,2.8,23.7,11.1,6.1,1.1,0.5,2.3,21.1,59.1,Tier 3
+79,Sam Lewis,Virginia,3,3.5,25.4,10.8,3.6,1.4,0.8,0.2,16.8,58.8,Tier 3
+80,Mario Saint-Supery,Gonzaga,3,3.5,22.5,8.6,2.8,3.6,1.4,0.1,16.5,57.8,Tier 3
+81,John Blackwell,Wisconsin,5,2.1,33.7,19,4.9,2.3,1.2,0.1,27.5,57.8,Tier 3
+82,Duke Miles,Vanderbilt,5,2.1,29.5,16.5,3.2,4.5,2.7,0.2,27.1,56.9,Tier 3
+83,Ugonna Onyenso,Virginia,3,3.5,18.5,6.7,5,0.6,0.6,3,15.9,55.6,Tier 3
+84,Johann GrÃ¼nloh,Virginia,3,3.5,21.1,7.2,5.2,0.7,0.5,2.2,15.8,55.3,Tier 3
+85,Nikolas Khamenia,Duke,1,5,19.6,5.8,3.4,1.1,0.6,0.1,11,55,Tier 3
+86,C.J. Cox,Purdue,2,4.2,24.4,8.3,2.6,1.3,0.5,0.1,12.8,53.8,Tier 3
+87,Billy Richmond III,Arkansas,4,2.8,27.1,11,4,2,1.1,0.9,19,53.2,Tier 3
+88,Latrell Wrightsell Jr.,Alabama,4,2.8,26.9,12.8,3.1,2,1,0,18.9,52.9,Tier 3
+89,Nolan Winter,Wisconsin,5,2.1,31.1,13.3,8.6,1.5,0.5,1.2,25.1,52.7,Tier 3
+90,Jalen Warley,Gonzaga,3,3.5,21.4,6.8,4.5,1.9,1.5,0.3,15,52.5,Tier 3
+91,Dallin Hall,Virginia,3,3.5,28.4,5.9,3.6,4.3,0.9,0.1,14.8,51.8,Tier 3
+92,Eric Reibe,Connecticut,2,4.2,15,6.8,3.8,0.5,0.3,0.8,12.2,51.2,Tier 3
+93,Zvonimir Ivisic,Illinois,3,3.5,17.8,7,4.8,0.3,0.3,2.1,14.5,50.8,Tier 3
+94,Henri Veesaar,North Carolina,6,1.7,31.1,16.7,8.7,2,0.6,1.2,29.2,49.6,Tier 4
+95,Davis Fogle,Gonzaga,3,3.5,16.2,8.4,3,1.4,0.8,0.5,14.1,49.4,Tier 4
+96,Malique Ewin,Arkansas,4,2.8,20,9.6,5.4,0.8,0.6,1,17.4,48.7,Tier 4
+97,Ja'Kobi Gillespie,Tennessee,6,1.7,34.5,18,2.8,5.5,2.1,0.2,28.6,48.6,Tier 4
+98,Bryce Hopkins,St. John's,5,2.1,28.5,13.5,6.2,2,1.1,0.3,23.1,48.5,Tier 4
+99,Jamarques Lawrence,Nebraska,4,2.8,28.3,9.7,2.5,4,0.9,0,17.1,47.9,Tier 4
+100,Braden Frager,Nebraska,4,2.8,23.4,11.6,3.8,0.9,0.7,0.1,17.1,47.9,Tier 4
+101,Nate Ament,Tennessee,6,1.7,30.2,17.5,6.6,2.5,1,0.5,28.1,47.8,Tier 4
+102,Charles Bediako,Alabama,4,2.8,21.6,10,4.6,0.2,0.8,1.4,17,47.6,Tier 4
+103,Nate Heise,Iowa State,2,4.2,24.3,4.7,4,1.6,0.9,0.1,11.3,47.5,Tier 4
+104,Bryson Tiller,Kansas,4,2.8,25.9,8.2,6,1,0.3,1.3,16.8,47,Tier 4
+105,Robert Wright III,BYU,6,1.7,34.8,18.2,3.5,4.7,1.2,0,27.6,46.9,Tier 4
+106,Mikel Brown Jr.,Louisville,6,1.7,29.2,18.2,3.3,4.7,1.2,0.1,27.5,46.8,Tier 4
+107,Ryan Conwell,Louisville,6,1.7,30.6,18.7,4.8,2.5,1.2,0.2,27.4,46.6,Tier 4
+108,Jacari White,Virginia,3,3.5,17.4,8.8,2.3,1.2,0.5,0.1,12.9,45.2,Tier 4
+109,Paulius Murauskas,Saint Mary's,7,1.5,32.5,18.8,7.7,2.2,0.6,0.5,29.8,44.7,Tier 4
+110,LeJuan Watts,Texas Tech,5,2.1,27.5,11.5,6,2.5,0.7,0.2,20.9,43.9,Tier 4
+111,Malik Reneau,Miami (FL),7,1.5,28.5,18.8,6.6,2,1,0.8,29.2,43.8,Tier 4
+112,Emmanuel Innocenti,Gonzaga,3,3.5,23.6,5.8,3.7,1.7,1,0.3,12.5,43.8,Tier 4
+113,Braeden Smith,Gonzaga,3,3.5,17.8,5.4,2.3,3.8,1,0,12.5,43.8,Tier 4
+114,Berke Buyuktuncel,Nebraska,4,2.8,24,6.4,5.4,1.9,0.9,1,15.6,43.7,Tier 4
+115,Dillon Mitchell,St. John's,5,2.1,27.7,8.2,7,3.1,1.3,0.7,20.3,42.6,Tier 4
+116,Ben Humrichous,Illinois,3,3.5,22.7,6.1,4.1,0.8,0.4,0.7,12.1,42.4,Tier 4
+117,Karter Knox,Arkansas,4,2.8,22.2,8.1,4.5,1.2,0.7,0.5,15,42,Tier 4
+118,Otega Oweh,Kentucky,7,1.5,32.4,18.2,4.6,2.6,1.8,0.2,27.4,41.1,Tier 4
+119,Tre Donaldson,Miami (FL),7,1.5,33.9,16.5,3.5,5.8,1.3,0.2,27.3,41,Tier 4
+120,Tyler Nickel,Vanderbilt,5,2.1,30.4,13.5,3.2,1.2,0.8,0.6,19.3,40.5,Tier 4
+121,Frankie Collins,Vanderbilt,5,2.1,20.9,7.8,4.2,4.7,2.4,0.1,19.2,40.3,Tier 4
+122,Jordan Scott,Michigan State,3,3.5,20.7,5.9,3.1,1.2,0.8,0.5,11.5,40.2,Tier 4
+123,Donovan Atwell,Texas Tech,5,2.1,34.7,13.5,3.3,0.8,1.2,0.1,18.9,39.7,Tier 4
+124,Kur Teng,Michigan State,3,3.5,17.5,7.7,2.1,1,0.3,0.1,11.2,39.2,Tier 4
+125,Devin McGlockton,Vanderbilt,5,2.1,25,9.6,6.7,1.3,0.4,0.6,18.6,39.1,Tier 4
+126,Jaylin Stewart,Connecticut,2,4.2,17.7,4.5,2.8,1.2,0.5,0.3,9.3,39.1,Tier 4
+127,Donovan Dent,UCLA,7,1.5,34.2,13.5,2.9,7.6,1.6,0.3,25.9,38.8,Tier 4
+128,Jamarion Batemon,Iowa State,2,4.2,15.3,6.9,1.2,0.4,0.6,0.1,9.2,38.6,Tier 4
+129,Adam Miller,Gonzaga,3,3.5,19.9,7.6,1.6,1.1,0.7,0,11,38.5,Tier 4
+130,Jayden Ross,Connecticut,2,4.2,16.9,4.7,2.4,0.8,0.7,0.4,9,37.8,Tier 4
+131,Tyler Bilodeau,UCLA,7,1.5,30.2,17.6,5.6,1.1,0.5,0.4,25.2,37.8,Tier 4
+132,Jalen Washington,Vanderbilt,5,2.1,21,9.1,5.7,0.9,0.6,1.3,17.6,37,Tier 4
+133,Jack Benter,Purdue,2,4.2,15,4.8,2.7,0.8,0.4,0.1,8.8,37,Tier 4
+134,Seth Trimble,North Carolina,6,1.7,32,14,3.6,2.8,1.1,0.2,21.7,36.9,Tier 4
+135,Cameron Ward,Michigan State,3,3.5,15.1,5,4.3,0.3,0.4,0.5,10.5,36.8,Tier 4
+136,Bruce Thornton,Ohio State,8,1.2,36.4,20.2,5.1,3.9,1.2,0.2,30.6,36.7,Tier 4
+137,Houston Mallette,Alabama,4,2.8,23.3,6.6,4.5,1.1,0.7,0,12.9,36.1,Tier 4
+138,D.J. Wagner,Arkansas,4,2.8,23.7,7.6,1.5,2.4,0.9,0.3,12.7,35.6,Tier 4
+139,Malachi Smith,Connecticut,2,4.2,15,3.5,1.5,2.7,0.6,0.1,8.4,35.3,Tier 4
+140,Joshua Dent,Saint Mary's,7,1.5,36.2,13,2.4,5.7,1.6,0.2,22.9,34.4,Tier 4
+141,AK Okereke,Vanderbilt,5,2.1,25.8,9.7,3.4,2,0.6,0.6,16.3,34.2,Tier 4
+142,Taylor Bol Bowen,Alabama,4,2.8,18.8,6.2,4.3,0.4,0.4,0.9,12.2,34.2,Tier 4
+143,J'Vonne Hadley,Louisville,6,1.7,27.8,11.8,5.2,1.7,1,0.3,20,34,Tier 4
+144,Oziyah Sellers,St. John's,5,2.1,28.9,10.7,2.9,1.7,0.6,0.3,16.2,34,Tier 4
+145,Austin Rapp,Wisconsin,5,2.1,22.8,9.6,4,1.6,0.5,0.5,16.2,34,Tier 4
+146,Gicarri Harris,Purdue,2,4.2,15.8,4.7,1.6,0.9,0.8,0.1,8.1,34,Tier 4
+147,Jaylen Petty,Texas Tech,5,2.1,30,9.5,3.9,2.2,0.6,0,16.2,34,Tier 4
+148,Shelton Henderson,Miami (FL),7,1.5,30.8,13.7,4.8,2,1.1,0.4,22,33,Tier 4
+149,Jake Davis,Illinois,3,3.5,20.3,5.8,2.2,0.8,0.3,0.2,9.3,32.6,Tier 4
+150,Sananda Fru,Louisville,6,1.7,22,9.2,6,1.3,0.5,1.4,18.4,31.3,Tier 4
+151,Duke Brennan,Villanova,8,1.2,30.9,12.4,10.3,2,0.8,0.5,26,31.2,Tier 4
+152,Andrew McKeever,Saint Mary's,7,1.5,23,8.4,9.2,1.7,0.5,0.8,20.6,30.9,Tier 4
+153,London Jemison,Alabama,4,2.8,15.1,6.2,3.4,0.4,0.6,0.3,10.9,30.5,Tier 4
+154,Devin Tillis,Virginia,3,3.5,16.3,4.3,2.8,1.4,0.2,0,8.7,30.4,Tier 4
+155,Mikey Lewis,Saint Mary's,7,1.5,26.9,14.2,2.8,2.2,0.7,0.3,20.2,30.3,Tier 4
+156,Denzel Aberdeen,Kentucky,7,1.5,30.2,13.2,2.6,3.6,0.7,0.1,20.2,30.3,Tier 4
+157,Divine Ugochukwu,Michigan State,3,3.5,16.1,5.1,1.5,1.5,0.4,0.1,8.6,30.1,Tier 4
+158,Ian Jackson,St. John's,5,2.1,18.6,9.6,2.3,1.2,0.8,0.2,14.1,29.6,Tier 4
+159,Cale Jacobsen,Nebraska,4,2.8,20.3,4.8,2.9,1.4,1.1,0.3,10.5,29.4,Tier 4
+160,Tru Washington,Miami (FL),7,1.5,27.6,12.1,3.9,1.7,1.9,0,19.6,29.4,Tier 4
+161,Trent Perry,UCLA,7,1.5,29.6,12.7,2.9,2.9,0.9,0.1,19.5,29.2,Tier 4
+162,Eric Dailey Jr.,UCLA,7,1.5,27.5,11.3,5.8,1.3,0.9,0.2,19.5,29.2,Tier 4
+163,Ernest Udeh Jr.,Miami (FL),7,1.5,27.8,6.9,9.3,0.5,1,1.5,19.2,28.8,Tier 4
+164,J.P. Estrella,Tennessee,6,1.7,17.7,10.1,5.2,0.8,0.2,0.4,16.7,28.4,Tier 4
+165,Dylan Darling,St. John's,5,2.1,21,7,2.5,2.5,1.4,0.1,13.5,28.4,Tier 4
+166,Keba Keita,BYU,6,1.7,22.6,6.3,7.3,0.3,1,1.7,16.6,28.2,Tier 4
+167,Steele Venters,Gonzaga,3,3.5,15.1,5,1.3,1,0.6,0.1,8,28,Tier 4
+168,Felix Okpara,Tennessee,6,1.7,26.6,7.7,6.2,0.5,0.5,1.4,16.3,27.7,Tier 4
+169,Nick Pringle,Arkansas,4,2.8,19,4.6,3.9,0.6,0.4,0.4,9.9,27.7,Tier 4
+170,Malachi Moreno,Kentucky,7,1.5,22.8,8,6.4,1.8,0.6,1.6,18.4,27.6,Tier 4
+171,Acaden Lewis,Villanova,8,1.2,30.3,12.3,3.1,5.3,1.9,0.1,22.7,27.2,Tier 4
+172,Blue Cain,Georgia,8,1.2,27.9,13.3,5.1,2.7,1.4,0.2,22.7,27.2,Tier 4
+173,Jeremiah Wilkinson,Georgia,8,1.2,25.5,17,2,1.8,1.6,0.3,22.7,27.2,Tier 4
+174,Braeden Carrington,Wisconsin,5,2.1,18.2,8.4,2.5,1.1,0.4,0.3,12.7,26.7,Tier 4
+175,Tyler Perkins,Villanova,8,1.2,29.6,13.7,5.4,1.6,1.2,0.3,22.2,26.6,Tier 4
+176,Isaac McKneely,Louisville,6,1.7,28.8,10.6,3,1.4,0.5,0.1,15.6,26.5,Tier 4
+177,Devin Royal,Ohio State,8,1.2,32.3,13.7,5.7,1.7,0.6,0.2,21.9,26.3,Tier 4
+178,Skyy Clark,UCLA,7,1.5,28.7,11.7,2.3,2.1,1.2,0.1,17.4,26.1,Tier 4
+179,Jaylen Carey,Tennessee,6,1.7,18.9,7.4,6.2,1.3,0.3,0.1,15.3,26,Tier 4
+180,John Mobley Jr.,Ohio State,8,1.2,31.4,15.7,2.4,2.7,0.8,0.1,21.7,26,Tier 4
+181,Elmarko Jackson,Kansas,4,2.8,18,4.9,1.8,1.5,0.8,0.2,9.2,25.8,Tier 4
+182,Joson Sanon,St. John's,5,2.1,21.3,8.3,2.6,0.6,0.6,0.2,12.3,25.8,Tier 4
+183,Adrian Wooley,Louisville,6,1.7,22.1,8.5,4,1.8,0.7,0.1,15.1,25.7,Tier 4
+184,Mouhamed Dioubate,Kentucky,7,1.5,21.3,8.7,5.5,1,1,0.9,17.1,25.6,Tier 4
+185,Bishop Boswell,Tennessee,6,1.7,26.3,6.2,4.5,2.9,1.3,0.1,15,25.5,Tier 4
+186,Andrew Rohde,Wisconsin,5,2.1,26.2,5.7,2.1,2.8,1.3,0.2,12.1,25.4,Tier 4
+187,Luka Bogavac,North Carolina,6,1.7,24.1,9.8,2.5,2.2,0.3,0,14.8,25.2,Tier 4
+188,Jarin Stevenson,North Carolina,6,1.7,25.6,8,4.4,0.9,0.6,0.7,14.6,24.8,Tier 4
+189,Collin Chandler,Kentucky,7,1.5,26.6,9.9,2.8,2.2,1.2,0.2,16.3,24.4,Tier 4
+190,RJ Godfrey,Clemson,8,1.2,25.1,11.9,5.3,1.6,0.6,0.6,20,24,Tier 4
+191,Dillan Shaw,Saint Mary's,7,1.5,27.3,7.5,5.3,1.6,0.9,0.6,15.9,23.8,Tier 4
+192,Marcus Millender,Georgia,8,1.2,26,11.9,2.8,4,0.9,0,19.6,23.5,Tier 4
+193,Kennard Davis,BYU,6,1.7,29.3,8.5,2.7,1.3,1.1,0.2,13.8,23.5,Tier 4
+194,Kanon Catchings,Georgia,8,1.2,23.5,12,4.8,1.2,0.8,0.4,19.2,23,Tier 4
+195,Aleksas Bieliauskas,Wisconsin,5,2.1,19.9,5,4.3,0.9,0.1,0.6,10.9,22.9,Tier 4
+196,Christoph Tilly,Ohio State,8,1.2,25.8,11,4.7,2.2,0.6,0.5,19,22.8,Tier 4
+197,Somto Cyril,Georgia,8,1.2,21.5,9.6,5.6,0.6,0.6,2.3,18.7,22.4,Tier 4
+198,Carter Welling,Clemson,8,1.2,20.8,10.2,5.4,1.1,0.8,0.8,18.3,22,Tier 4
+199,Luke Bamgboye,Texas Tech,5,2.1,16.7,4.7,3.3,0.5,0.3,1.7,10.5,22,Tier 4
+200,Amare Bynum,Ohio State,8,1.2,28.3,9.7,4.8,1.1,0.6,0.8,17,20.4,Tier 4
+201,Khani Rooths,Louisville,6,1.7,16.5,5.5,4.4,1,0.6,0.4,11.9,20.2,Tier 4
+202,Bryce Lindsay,Villanova,8,1.2,28.3,11.9,2.1,2,0.7,0,16.7,20,Tier 4
+203,Derek Dixon,North Carolina,6,1.7,21.8,6.4,2.3,2.6,0.4,0,11.7,19.9,Tier 4
+204,Jamari McDowell,Kansas,4,2.8,17.8,3.5,1.6,1.2,0.4,0.2,6.9,19.3,Tier 4
+205,Devin Askew,Villanova,8,1.2,23.1,10,2.6,2.1,1.1,0.1,15.9,19.1,Tier 4
+206,Dante Allen,Miami (FL),7,1.5,23.8,6.4,2.8,2.2,1,0.1,12.5,18.7,Tier 4
+207,Xavier Booker,UCLA,7,1.5,19.6,6.9,3.3,0.8,0.2,1.1,12.3,18.4,Tier 4
+208,Dillon Hunter,Clemson,8,1.2,28.5,7.5,3.8,3,0.9,0.1,15.3,18.4,Tier 4
+209,Nick Davidson,Clemson,8,1.2,21.7,9.1,4.1,1.1,0.5,0.4,15.2,18.2,Tier 4
+210,Harry Wessels,Saint Mary's,7,1.5,16.8,4.9,5.2,0.6,0.4,1,12.1,18.2,Tier 4
+211,DeWayne Brown II,Tennessee,6,1.7,15.4,4.9,3.8,0.9,0.3,0.4,10.3,17.5,Tier 4
+212,Matthew Hodge,Villanova,8,1.2,27.6,9.2,3.6,0.7,0.4,0.6,14.5,17.4,Tier 4
+213,Dawson Baker,BYU,6,1.7,19.8,7.5,1.7,0.5,0.5,0,10.2,17.3,Tier 4
+214,Jestin Porter,Clemson,8,1.2,27.1,9.6,1.8,1.3,1.2,0.2,14.1,16.9,Tier 4
+215,Ace Buckner,Clemson,8,1.2,19.5,8.4,2.8,1.8,0.9,0.1,14,16.8,Tier 4
+216,Andrija Jelavic,Kentucky,7,1.5,15.8,5.8,3.9,0.6,0.5,0.3,11.1,16.6,Tier 4
+217,Brandon Garrison,Kentucky,7,1.5,15.9,4.6,3.9,1.1,0.5,0.7,10.8,16.2,Tier 4
+218,Cade Phillips,Tennessee,6,1.7,16.9,3.8,4,0.4,0.2,1.1,9.5,16.1,Tier 4
+219,Tyeree Bryan,Texas Tech,5,2.1,17.4,3.7,2.6,0.6,0.4,0.2,7.5,15.8,Tier 4
+220,Kam Williams,Kentucky,7,1.5,18.9,6.2,2.3,1,0.6,0.3,10.4,15.6,Tier 4
+221,Zac Foster,Clemson,8,1.2,18.7,6.9,2.8,2.5,0.4,0.3,12.9,15.5,Tier 4
+222,Marcus Allen,Miami (FL),7,1.5,18.9,5.3,3.1,1.6,0.3,0,10.3,15.4,Tier 4
+223,Khadim Mboup,BYU,6,1.7,15.6,2.3,5.1,0.4,0.5,0.5,8.8,15,Tier 4
+224,Brandon Noel,Ohio State,8,1.2,19.9,7.1,3.9,0.9,0.3,0.2,12.4,14.9,Tier 4
+225,Jordan Ross,Georgia,8,1.2,20.9,6.6,2.5,2.4,0.6,0,12.1,14.5,Tier 4
+226,Jonathan Powell,North Carolina,6,1.7,16.1,4.8,2.3,0.8,0.5,0.1,8.5,14.4,Tier 4
+227,Kyan Evans,North Carolina,6,1.7,18.2,4.1,1.2,2.6,0.5,0,8.4,14.3,Tier 4
+228,Jack Janicki,Wisconsin,5,2.1,16.5,2.2,2,1.1,0.7,0.2,6.2,13,Tier 4
+229,Jake Wahlin,Clemson,8,1.2,20.6,5.4,3.9,0.7,0.4,0.3,10.7,12.8,Tier 4
+230,Dylan James,Georgia,8,1.2,15,4.5,3.8,0.5,0.7,0.6,10.1,12.1,Tier 4
+231,Efrem Johnson,Clemson,8,1.2,20.8,6.2,2.1,1,0.6,0.2,10.1,12.1,Tier 4
+232,Jamar Brown,UCLA,7,1.5,16.1,3.9,2.8,0.5,0.6,0.1,7.9,11.8,Tier 4
+233,Timotej Malovec,Miami (FL),7,1.5,15.8,4.5,1.4,0.9,0.3,0.2,7.3,11,Tier 4
+234,Tafara Gapare,Villanova,8,1.2,16.3,2.9,2.9,0.4,0.6,0.8,7.6,9.1,Tier 4
+235,Malachi Palmer,Villanova,8,1.2,18.2,4.4,1.7,0.6,0.6,0.1,7.4,8.9,Tier 4

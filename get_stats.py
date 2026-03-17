@@ -14,36 +14,48 @@ HEADERS = {
 YEAR = 2026
 DELAY = 5  # seconds between requests
 
-# (slug, display_name, seed)  — fill in seeds once bracket is set
+# (slug, display_name, seed)
 TEAMS = [
-    ("duke",           "Duke",           None),
-    ("michigan",       "Michigan",       None),
-    ("arizona",        "Arizona",        None),
-    ("connecticut",    "Connecticut",    None),
-    ("florida",        "Florida",        None),
-    ("houston",        "Houston",        None),
-    ("michigan-state", "Michigan State", None),
-    ("illinois",       "Illinois",       None),
-    ("purdue",         "Purdue",         None),
-    ("iowa-state",     "Iowa State",     None),
-    ("nebraska",       "Nebraska",       None),
-    ("texas-tech",     "Texas Tech",     None),
-    ("gonzaga",        "Gonzaga",        None),
-    ("alabama",        "Alabama",        None),
-    ("virginia",       "Virginia",       None),
-    ("kansas",         "Kansas",         None),
-    ("vanderbilt",     "Vanderbilt",     None),
-    ("arkansas",       "Arkansas",       None),
-    ("north-carolina", "North Carolina", None),
-    ("tennessee",      "Tennessee",      None),
-    ("st-johns-ny",    "St. John's",     None),
-    ("wisconsin",      "Wisconsin",      None),
-    ("louisville",     "Louisville",     None),
-    ("kentucky",       "Kentucky",       None),
-    ("saint-marys-ca", "Saint Mary's",   None),
-    ("brigham-young",  "BYU",            None),
-    ("miami-fl",       "Miami (FL)",     None),
-    ("villanova",      "Villanova",      None),
+    # Seed 1
+    ("duke",           "Duke",           1),
+    ("arizona",        "Arizona",        1),
+    ("michigan",       "Michigan",       1),
+    ("florida",        "Florida",        1),
+    # Seed 2
+    ("houston",        "Houston",        2),
+    ("connecticut",    "Connecticut",    2),
+    ("iowa-state",     "Iowa State",     2),
+    ("purdue",         "Purdue",         2),
+    # Seed 3
+    ("michigan-state", "Michigan State", 3),
+    ("illinois",       "Illinois",       3),
+    ("gonzaga",        "Gonzaga",        3),
+    ("virginia",       "Virginia",       3),
+    # Seed 4
+    ("nebraska",       "Nebraska",       4),
+    ("alabama",        "Alabama",        4),
+    ("kansas",         "Kansas",         4),
+    ("arkansas",       "Arkansas",       4),
+    # Seed 5
+    ("vanderbilt",     "Vanderbilt",     5),
+    ("st-johns-ny",    "St. John's",     5),
+    ("texas-tech",     "Texas Tech",     5),
+    ("wisconsin",      "Wisconsin",      5),
+    # Seed 6
+    ("tennessee",      "Tennessee",      6),
+    ("north-carolina", "North Carolina", 6),
+    ("louisville",     "Louisville",     6),
+    ("brigham-young",  "BYU",            6),
+    # Seed 7
+    ("kentucky",       "Kentucky",       7),
+    ("saint-marys-ca", "Saint Mary's",   7),
+    ("miami-fl",       "Miami (FL)",     7),
+    ("ucla",           "UCLA",           7),
+    # Seed 8
+    ("clemson",        "Clemson",        8),
+    ("villanova",      "Villanova",      8),
+    ("ohio-state",     "Ohio State",     8),
+    ("georgia",        "Georgia",        8),
 ]
 
 
